@@ -1,0 +1,43 @@
+.container{
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    margin: auto;
+}
+.card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #F2A0B6;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 15px #F2A0B6;
+    }
+
+ .card img{
+    width: 330;
+    height: auto;
+}
+
+h4{
+    color: #A66D7C;
+    font-family: century;
+    font-size: 25px;
+    font-style: bold;
+}
+    
+p{
+    color: black;
+    font-family: century;
+    font-size: medium;
+    justify-content: center;
+    text-align: center;
+}
